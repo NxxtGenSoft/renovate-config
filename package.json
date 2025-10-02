@@ -1,0 +1,19 @@
+{
+  "name": "renovate-config-nxxtgensoft",
+  "version": "0.0.0",
+  "description": "NxxtGenSoft preset for Renovate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nxxtgensoft/renovate-config.git"
+  },
+  "scripts": {
+    "test": "renovate-config-validator default.json"
+  },
+  "files": [
+    "default.json"
+  ],
+  "devDependencies": {
+    "renovate": "latest"
+  },
+  "packageManager": "pnpm@10.18.0"
+}
